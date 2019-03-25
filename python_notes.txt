@@ -5,11 +5,12 @@
 (5) The type of variable doesn't need to be declared when u assign a value to a variable in Python,it dynamically takes on the type of the data it refers to.
 (6) u make decisions with the if/elif/else statement.The if,elif and else keywords precede blocks of code which are known in the Python world as "suites"
 (7) It is easy to spot suites of code as they are always indented.Indentation is the only code grouping mechanism provided by Python.
-(8) In addition to indentation,suites of code are also preceded by a colon(:).This is a syntactical requirement of the language.
+(8) In addition to indentation,suites of code are also preceded by a colon(:).This is a syntactical requirement of the language.Any suite can contain any number of embedded suites, which also have to be indented
 (9) u can import a specific function from a module.For example, "from time import sleep".imports the sleep function, letting you invoke it without qualification.
 (10)if u simply import a module-for example, "import time"-u then need to qualify the usage of any of the module's functions with the module name.like so: time.sleep().
 (11) ** is used to calculate the exponential value also **=
 (12) Itendity Operators-- is,is not e.g. type(2) is int is True
 (13) Membership Operators -- in,not in e.g "Hello" in "Hello Goodbye" is True
-(14) Python lacks a switch staement but the if..elif staement is generally used for the same purpose in Python.
-(15)
+(14) Python lacks a switch statement but the if..elif staement is generally used for the same purpose in Python.
+(15) use dir on >>> to query an object e.g >>>dir(os).you can ask the shell for help e.g >>>help(os)
+(16)
